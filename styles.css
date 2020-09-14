@@ -5,10 +5,11 @@ body {
   }
   
   .padd{
-      padding-right:3rem
+    padding-top:2rem;
+    padding-right:3rem
   }
-
-  img  {
+  body > div:nth-child(1) > div > img
+   {
      margin-top: -8rem;   
      float: right;
 }
@@ -24,8 +25,8 @@ body {
 h2{
     color: black;
     margin-top: 1em;
-    margin-left:1.5em;
-    font-size: 30px;
+    margin-left:2.6em;
+    font-size: 40px;
     font-weight: bold;
 }
       
@@ -36,14 +37,17 @@ h2{
   }
   
   .first-div {
-      
+    padding-left: 6rem;
+  
     height: 100vh;
     
    }
    
    .second-div {
+     
    height: 100vh;
-   
+   margin-left:-20rem;
+   margin-top:0rem
    }
 
    .btn {
@@ -56,6 +60,7 @@ h2{
     margin-bottom: -0.4em;
     text-align: left;
   }
+ 
 
 h3{
     color: #f24637;
@@ -83,8 +88,11 @@ p{
 }
 
 a{
-    color: #f24637
+  
+    color: #f24637;
+    
 }
+
 /* 
   #card{
       margin: -1.5em;
@@ -100,17 +108,20 @@ a{
   }
 
   .card-header{
-      margin-top: -0.8em;
-      padding-top: -0.8em;
-      padding-bottom: 0.8em;
-      margin-bottom: -0.8em;
+      margin-top: 0em;
+      padding-top: 0em;
+      padding-bottom:0em;
+      margin-bottom: 0em;
       background-color: white
   }/* background-color: None; */
   h5{
-    margin-top: -0.8em;
+    margin-top: 0em;
     padding-top: -0.8em;
     padding-bottom: 0.8em;
     margin-bottom: -0.8em;
+  }
+  .sub-div{
+    margin-left: 2rem;
   }
 
 
@@ -126,14 +137,40 @@ a{
       
     .second-div {
       height: 100vh;
-      margin-top:8rem 
+      margin-top:-24rem ;
+      margin-left:-0.6rem
       }
 
-      img  {
-        margin-top: -21.5rem;   
-        float: right;
+      body > div.container-fluid > div > div.first-div.col-md > div > img  {
+        margin-top: -20rem;   
+        width:100%;
+       margin-left:-3rem
    }
-   .padd{
-    padding-right:1rem
+   h2{
+    color: black;
+    margin-top: 1em;
+    margin-left:1em;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.first-div {
+  padding-top: 22em;
+ 
+  height: 100vh;
+ }
+ body > div:nth-child(1) > div > img
+
+{
+  margin-top: -10rem;
+  margin-right:-2.8rem;
+  
+}
+h2{
+  color: black;
+  margin-top: 1em;
+  margin-left:2em;
+  font-size: 28px;
+  font-weight: bold;
 }
   }
